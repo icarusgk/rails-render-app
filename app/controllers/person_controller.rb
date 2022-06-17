@@ -1,5 +1,5 @@
 class PersonController < ApplicationController
   def api
-    render json: People.all
+    render json: Person.all
   end
 end
